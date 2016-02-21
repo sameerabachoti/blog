@@ -69,7 +69,7 @@ img {
 
 ol, ol li {
   padding: 0;
-  margin: 0; }
+  margin: 15; }
 
 blockquote {
   margin: 0;
@@ -94,7 +94,7 @@ footer {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   width: 100%;
-  max-width: 600px;
+  max-width: 800px;
   background: #fff;
   margin: 40px auto 20px;
   border-radius: 7px;
@@ -238,7 +238,7 @@ ul.posts .datetime {
   text-align: right; }
 
 section.post {
-  margin: 0 -100px;
+  margin: 0 -80px;
   text-align: left;
   border-top: 0;
   padding: 0; }
