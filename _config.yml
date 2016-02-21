@@ -11,7 +11,7 @@ links:
     url:          /about
     external:     true
   - name:         GitHub
-    url:          http://github.com/muan
+    url:          http://github.com/sameera91
     external:     true
 highlighter:      rouge
 permalink:        pretty
