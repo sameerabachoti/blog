@@ -31,11 +31,11 @@ Talk description:
 
 **The Process**
 
-Before I started coding, I thought about the number of classes I wanted to have and the purpose of each class. After some thinking, and using Avi's [CLI Gem Walkthrough](https://www.youtube.com/watch?v=_lDExWIhYKI){:target="_blank" as a helpful guide, I created three separate classes — a TedTalks::CLI class, TedTalks::Talk, and TedTalks::Info class. The purpose of the CLI class was to list the different categories and talks and allow the user to choose from the options on the command line. The basic flow of the class is defined within the call method:
+Before I started coding, I thought about the number of classes I wanted to have and the purpose of each class. After some thinking, and using Avi's [CLI Gem Walkthrough](https://www.youtube.com/watch?v=_lDExWIhYKI){:target="_blank"} as a helpful guide, I created three separate classes — a TedTalks::CLI class, TedTalks::Talk, and TedTalks::Info class. The purpose of the CLI class was to list the different categories and talks and allow the user to choose from the options on the command line. The basic flow of the class is defined within the call method:
 
 ![CLI method screenshot](/img/cli.jpg)
 
-One of the most interesting parts of this project was getting information from the [TED](https://ted.com/talks){:target="_blank"} website. In the TedTalks::Talk and TedTalks::Info classes, I used the Nokogiri Ruby gem to scrape relevant information such as the title, author, date and rating of a talk. This proved to be a bit of a challenge at first, because it was difficult to figure out what the exact CSS selectors were, but chrome developer tools made this process rather efficient. Here's a code snippet of how I used Nokogiri and CSS selectors to gather the data:
+One of the most interesting parts of this project was getting information from the [TED](https://ted.com/talks){:target="_blank"} website. In the TedTalks::Talk and TedTalks::Info classes, I used the Nokogiri Ruby gem to scrape relevant information such as the title, author, date and rating of a talk. This appeared to be challenging at first, but chrome developer tools made the process of finding the exact CSS selectors rather efficient. Here's a code snippet of how I used Nokogiri and CSS selectors to gather the data:
 
 ![scraping method screenshot](/img/scrape.jpg)
 
