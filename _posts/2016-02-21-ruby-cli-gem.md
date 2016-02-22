@@ -6,7 +6,7 @@ date: 2016-02-21
 
 **Overview:**
 
-As a part of Flatiron School's [Learn](https://learn.co/){:target="_blank"}, I have just completed my first command line interface Ruby gem! This project involved gathering data from a website and then displaying the information back to the user. I thought about a number of different websites I could scrape for this project, but I picked the one that immediately stood out. I’m a huge fan of TED talks and wanted a quick way to see some of the most popular talks today. I even wanted a way to drill into a specific TED talk and learn more about it, so I’ve decided to scrape the [Ted Talks](https://www.ted.com/talks){:target="_blank"} website! 
+As a part of Flatiron School's [Learn](https://learn.co/){:target="_blank"}, I have just completed my first command line interface Ruby gem! This project involved gathering data from a website and then displaying the information back to the user. I thought about a number of different websites I could scrape for this project, but I picked the one that immediately stood out. I’m a huge fan of TED talks and wanted a quick way to see some of the most popular talks today. I even wanted a way to drill into a specific TED talk and learn more about it, so I’ve decided to scrape the [TED Talks](https://www.ted.com/talks){:target="_blank"} website! 
 
 The basic requirements for the project were as follows: 
 
@@ -45,7 +45,7 @@ Once I had scraped the information from the TED talks website, I had to display 
 
 **Challenges:**
 
-This was an enjoyable project, but I did encounter some challenges along the way. The first one was getting my code to be more efficient. I had just learned about DRY (don’t repeat yourself), and worked to make sure I didn't repeat any line of code too many times. For example, I initially had twice the number of if statements as I do currently when gathering user input — one for every category and its number, but then I decided that it would be easier to store possible user inputs in a hash and iterate over them. When the user enters in a number, I use the hash to get the word that corresponds to the user input, and store that in the input variable. When I implemented my code this way, I found that I greatly reduced the number of if statements in my code.
+This was an enjoyable project, but I did encounter some challenges along the way. The first one was getting my code to be more efficient. I had just learned about DRY (don’t repeat yourself), and worked to make sure I didn't repeat any line of code too many times. For example, I initially had twice the number of if statements as I do currently when gathering user input — one for every category and its number, but then I decided that it would be easier to store possible user inputs in a hash and iterate over them. When the user enters in a number, I use the hash to get the word that corresponds to the user input, and store that word in the input variable. When I implemented my code this way, I found that I greatly reduced the number of if statements in my code.
 
 ![hash method screenshot](/img/hash.jpg)
 
