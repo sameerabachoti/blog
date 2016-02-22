@@ -18,3 +18,4 @@ permalink:        pretty
 redcarpet:
   extensions:
     - smart
+exclude: [vendor]
