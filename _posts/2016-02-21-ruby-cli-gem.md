@@ -29,7 +29,7 @@ Talk description:
 
 ![description screenshot](/img/description.jpg)
 
-**The Process**
+**The Process:**
 
 Before I started coding, I thought about the number of classes I wanted to have and the purpose of each class. After some thinking, and using Avi's [CLI Gem Walkthrough](https://www.youtube.com/watch?v=_lDExWIhYKI){:target="_blank"} as a helpful guide, I created three separate classes — a TedTalks::CLI class, TedTalks::Talk, and TedTalks::Info class. The purpose of the CLI class was to list the different categories and talks and allow the user to choose from the options on the command line. The basic flow of the class is defined within the call method:
 
