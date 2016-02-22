@@ -45,11 +45,11 @@ Once I had scraped the information from the TED talks website, I had to display 
 
 **Challenges:**
 
-This was an enjoyable project, but I did encounter some challenges along the way. The first one was getting my code to be more efficient. I had just learned about DRY (don’t repeat yourself), and worked to make sure I didn't repeat any line of code too many times. For example, I initially had twice the number of if statements as I do currently when gathering user input — one for every category and its number, but then I decided that it would be easier to store possible user inputs in a hash and iterate over them. When the user enters in a number, I use the hash to get the word that corresponds to the user input, and store that word in the input variable. When I implemented my code this way, I found that I greatly reduced the number of if statements in my code.
+This was an enjoyable project, but I did encounter some challenges along the way. The first one was getting my code to be more efficient. I had just learned about DRY (don’t repeat yourself), and worked to make sure I didn't repeat any line of code too many times. For example, after obtaining user input, I used if statements to determine what the program does with each possible user input value. Initially, I had twice the number of if statements that I have currently — one for every category and its number. However, I later decided that it would be easier to store input values in a hash and iterate over them. When the user enters in a number, I use the hash to get the word that corresponds to the user input, and store that word in the input variable. When I implemented my code this way, I found that I greatly reduced the number of if statements.
 
 ![hash method screenshot](/img/hash.jpg)
 
 
-I had initially also placed the functionality of scraping both the list of ted talks and the individual talk info into just one class, but then later decided that it may be more efficient to place both of these into separate classes. This way, each class was responsible for just one set of information.
+I had initially also placed the functionality of scraping both the list of TED talks and the individual talk info into just one class, but then later decided that it may be more efficient to place both of these into separate classes. This way, each class was responsible for just one set of information.
 
 At the end, I had three different classes and a working Ruby gem! I now have a way to go through TED talk information through the command line. In the next few days, I will go through a code review, improve upon what I have, and publish the gem!
