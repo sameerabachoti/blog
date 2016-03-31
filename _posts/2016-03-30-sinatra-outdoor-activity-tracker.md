@@ -22,17 +22,17 @@ Before coding, I had to set up some models and migrations. I had 4 different mod
 
 Here is what some of my models look like:  (Location and Activity):
 
-![location model screenshot](/images/location.jpg)
+![location model screenshot](/img/location.jpg)
 
-![activity model screenshot](/images/activity.jpg)
+![activity model screenshot](/img/activity.jpg)
 
 I then set up tables according to the models I built—users, activities, locations, and user_locations were the tables. These tables had fields such as username and password for users, and time and distance for activities. It was important to run rake db:migrate in the process of creating these migrations.
 
 Here are a couple of migrations (created for the users and locations table):
 
-![users migration](/images/users_migration.jpg)
+![users migration](/img/users_migration.jpg)
 
-![locations migration](/images/locations_migration.jpg)
+![locations migration](/img/locations_migration.jpg)
 
 As is shown in my code, the models inherit from ActiveRecord::Base. This ensures that all of ActiveRecord’s methods are available for the models to use.
 
@@ -42,7 +42,7 @@ The controller is where much of the work takes place. This is the part of the ap
 
 Here is a part of my activities controller:
 
-![activities controller](/images/activities_controller.jpg)
+![activities controller](/img/activities_controller.jpg)
 
 Views
 
