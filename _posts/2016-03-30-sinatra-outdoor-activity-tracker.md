@@ -18,7 +18,7 @@ them.
 
 **Models and Migrations**
 
-Before coding, I had to set up some models and migrations. I had 4 different models—activity, location, user, and user_location. I decided on the following relationships: an activity belongs to a user and location, a location has many activities and users, and a user has many activities and users. Since user and location have a many-to-many relationship, a join table would be required to associate them—and that’s where the user_location model comes in, with user_locations being the join table.
+Before coding, I had to set up some models and migrations. I had 4 different models—activity, location, user, and user_location. I decided on the following relationships: an activity belongs to a user and location, a location has many activities and users, and a user has many activities and locations. Since user and location have a many-to-many relationship, a join table would be required to associate them—and that’s where the user_location model comes in, with user_locations being the join table.
 
 Here is what some of my models look like:  (Location and Activity):
 
