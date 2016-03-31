@@ -56,5 +56,5 @@ It was also somewhat difficult to keep locations and activities synchronized, bu
 
 Another thing I had to consider was displaying messages to the user after they performed some action such as editing or deleting. I found that the most efficient way to do this was through the sinatra-flash gem. Using this gem, I could specify the messages I wanted the user to see and exactly where they should be placed.
  
-Overall, this project was a great learning process and a way to see much of what Sinatra has to offer. I did indeed discover that Sinatra makes the most essential tasks of creating a web application quite efficient. Next, I will go through a code review and improve upon my code.
+Overall, this project was a great learning process and a way to experience much of what Sinatra has to offer. I did indeed discover that Sinatra makes the most essential tasks of creating a web application quite efficient. Next, I will go through a code review and improve upon my code!
 
