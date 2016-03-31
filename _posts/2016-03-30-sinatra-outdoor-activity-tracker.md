@@ -26,6 +26,8 @@ Here is what some of my models look like:  (Location and Activity):
 
 ![activity model screenshot](/img/activity.jpg)
 
+As is shown in my code, the models inherit from ActiveRecord::Base. This makes ActiveRecord's methods available for the models to use, ensuring that objects are easily created and stored in the database.
+
 I then set up tables according to the models I built—users, activities, locations, and user_locations were the tables. These tables had fields such as username and password for users, and time and distance for activities. It was important to run rake db:migrate in the process of creating these migrations.
 
 Here are a couple of migrations (created for the users and locations table):
@@ -33,8 +35,6 @@ Here are a couple of migrations (created for the users and locations table):
 ![users migration](/img/users_migration.jpg)
 
 ![locations migration](/img/locations_migration.jpg)
-
-As is shown in my code, the models inherit from ActiveRecord::Base. This ensures that all of ActiveRecord’s methods are available for the models to use.
 
 **Controllers**
 
